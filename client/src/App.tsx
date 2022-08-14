@@ -1,7 +1,7 @@
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import { Home, List, Hotel } from "./pages";
 
-const App = () => {
+export const App: React.FunctionComponent = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -12,5 +12,3 @@ const App = () => {
     </BrowserRouter>
   );
 };
-
-export default App;
